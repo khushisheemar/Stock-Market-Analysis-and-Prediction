@@ -454,6 +454,7 @@ st.warning(
     "This project is for educational and analytical purposes only. "
     "It should not be treated as financial advice."
 )
+
 from flask import Flask
 
 app = Flask(__name__)
