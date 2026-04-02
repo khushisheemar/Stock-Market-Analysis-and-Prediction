@@ -455,14 +455,3 @@ st.warning(
     "It should not be treated as financial advice."
 )
 
-from flask import Flask
-
-app = Flask(__name__)
-
-@app.route("/")
-def home():
-    return "Hello, Stock Market!"
-
-# This should be at the very bottom of the file
-if __name__ == "__main__":
-    app.run()
